@@ -1,0 +1,561 @@
+{
+    "dup_type": "lite",
+    "created": "2026-05-06 06:32:05",
+    "version_dup": "1.5.16",
+    "version_wp": "6.9.1",
+    "version_db": "10.11.16",
+    "version_php": "8.1.33",
+    "version_os": "Linux",
+    "blogname": "buildremote",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$rYXdCBXpdh1jfGzGNcdE9eaZoYWbdWmwzmTUp6gk04RpgZ1y4FldK",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "draft.build-remote.com",
+            "path": "\/newtemplate\/buildremote2\/",
+            "blogname": "buildremote",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "admin",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2",
+            "fullSiteUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": null,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "admintheme_buildremote2",
+        "tablesBaseCount": 19,
+        "tablesFinalCount": 19,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 75028,
+        "tablesSizeOnDisk": 21315584,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 10,
+                "insertedRows": 11,
+                "size": 163840
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 25,
+                "insertedRows": 31,
+                "size": 49152
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 305,
+                "insertedRows": 310,
+                "size": 2293760
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 73621,
+                "insertedRows": 72298,
+                "size": 16302080
+            },
+            "wp_posts": {
+                "inaccurateRows": 947,
+                "insertedRows": 910,
+                "size": 1867776
+            },
+            "wp_rank_math_internal_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_rank_math_internal_meta": {
+                "inaccurateRows": 28,
+                "insertedRows": 28,
+                "size": 16384
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 29,
+                "insertedRows": 29,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 50,
+                "insertedRows": 50,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.11.16",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 2,
+        "packageName": "20260424_buildremote",
+        "packageHash": "e0f7b59-06063205",
+        "secondaryHash": "b44355e-06063205"
+    },
+    "fileInfo": {
+        "dirCount": 911,
+        "fileCount": 6262,
+        "size": 87226421
+    },
+    "wpInfo": {
+        "version": "6.9.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2",
+        "targetPaths": [
+            "\/home\/admintheme\/public_html\/newtemplate\/buildremote2"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "admin",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "a8yL*LuEE?k<ameqjV3<-=8;J1nclTl~(&up5$KdjTr15xBKWakn5(me F(fBGbh",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "ytV2G%orbV-={aS?+$\/vT@vD07]`~DKq(!t^ntvnjNG0&#1[P&54w|IoS6s{Fk~T",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "Hf?{{.CP\/(2IpNt5]t`t&2n6[yU6]pb:tk)40Ejv1SYzX7<1hk2:~&9l}ak[R 1{",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "+L8PL=KeQ{E1k+y)TeMrtyF6[W+?CP54w6b~&yoDh7*!5HS! r@+=\/nO-Gg%%b2_",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "NzZ:{|qPg1N<^P%(F,|a@o8[AB}X9+8X N_rXryVnXUgvE&RG:\/w0qH.[4aATIi%",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "\/S83>d1*Yq3k#Zs4m<f*Noz>*+xP!Iy1D2ywYlGw7Cy^ar%*g92(;<u)u0:\/>6y!",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "Ugo}9a~>9fnpmPfI-Jod<oaFJD&L$W3xx-mr7{7e(+F=+^U!}F)ba*Z`[-EVO;$%",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "f#yb{%}%v\/M!GG sZV^X=oa8?u@%@cV6K:HHxCm\/rgxjb77s1+Mlt(3tpBq(f.2~",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/newtemplate\/buildremote2\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/newtemplate\/buildremote2\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/newtemplate\/buildremote2\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/newtemplate\/buildremote2\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/themes\/twentytwentyone",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/themes\/buildremote_new",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2",
+                "homeUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2",
+                "loginUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-login.php",
+                "contentUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content",
+                "uploadBaseUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/draft.build-remote.com\/newtemplate\/buildremote2\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2",
+                    "abs": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2",
+                    "wpconfig": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2",
+                    "wpcontent": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content",
+                    "uploads": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/uploads",
+                    "plugins": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/plugins",
+                    "muplugins": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/mu-plugins",
+                    "themes": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2",
+                    "abs": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2",
+                    "wpconfig": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2",
+                    "wpcontent": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content",
+                    "uploads": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/uploads",
+                    "plugins": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/plugins",
+                    "muplugins": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/mu-plugins",
+                    "themes": "\/home\/admintheme\/public_html\/newtemplate\/buildremote2\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "advanced-custom-fields-pro\/acf.php": {
+                "slug": "advanced-custom-fields-pro\/acf.php",
+                "name": "Advanced Custom Fields PRO",
+                "version": "6.8.0.1",
+                "pluginURI": "https:\/\/www.advancedcustomfields.com",
+                "author": "WP Engine",
+                "authorURI": "https:\/\/wpengine.com\/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=plugin_directory&utm_content=advanced_custom_fields",
+                "description": "Customize WordPress with powerful, professional and intuitive fields.",
+                "title": "Advanced Custom Fields PRO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.7",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.16",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "seo-by-rank-math\/rank-math.php": {
+                "slug": "seo-by-rank-math\/rank-math.php",
+                "name": "Rank Math SEO",
+                "version": "1.0.269",
+                "pluginURI": "https:\/\/rankmath.com\/",
+                "author": "Rank Math SEO",
+                "authorURI": "https:\/\/rankmath.com\/?utm_source=Plugin&utm_medium=Readme%20Author%20URI&utm_campaign=WP",
+                "description": "Rank Math SEO is the Best WordPress SEO plugin with the features of many SEO and AI SEO tools in a single package to help multiply your SEO traffic.",
+                "title": "Rank Math SEO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-fastest-cache\/wpFastestCache.php": {
+                "slug": "wp-fastest-cache\/wpFastestCache.php",
+                "name": "WP Fastest Cache",
+                "version": "1.4.7",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/wp-fastest-cache\/",
+                "author": "Emre Vona",
+                "authorURI": "https:\/\/www.wpfastestcache.com\/",
+                "description": "The simplest and fastest WP Cache system",
+                "title": "WP Fastest Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "buildremote_new": {
+                "slug": "buildremote_new",
+                "themeName": "Buildremote",
+                "version": "1.0",
+                "themeURI": "https:\/\/yourwebsite.com\/",
+                "parentTheme": "twentytwentyone",
+                "template": "twentytwentyone",
+                "stylesheet": "buildremote_new",
+                "description": "Child theme for Twenty Twenty-One",
+                "author": "Your Name",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyone": {
+                "slug": "twentytwentyone",
+                "themeName": "Twenty Twenty-One",
+                "version": "2.7",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyone\/",
+                "parentTheme": false,
+                "template": "twentytwentyone",
+                "stylesheet": "twentytwentyone",
+                "description": "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme\u2019s soft colors and eye-catching \u2014 yet timeless \u2014 design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog",
+                    "portfolio"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "buildremote"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20260424_buildremote_e0f7b59c77f0972b8078_20260506063205_installer-backup.php",
+    "package_name": "20260424_buildremote_e0f7b59c77f0972b8078_20260506063205_archive.zip",
+    "package_hash": "e0f7b59-06063205",
+    "package_notes": ""
+}
